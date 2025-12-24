@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Віктор</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            background-color: #111;
+            color: white;
+        }
+
+        h1 {
+            font-size: 64px;
+            margin-bottom: 20px;
+        }
+
+        .links a {
+            display: block;
+            color: #1DA1F2;
+            text-decoration: none;
+            font-size: 20px;
+            margin: 5px 0;
+        }
+
+        .links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Віктор</h1>
+
+    <div class="links">
+        <a href="#">Twitter 1</a>
+        <a href="#">Twitter 2</a>
+        <a href="#">Twitter 3</a>
+    </div>
+
+</body>
+</html>
